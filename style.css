@@ -1,0 +1,37 @@
+/* Sfondi i faqes */
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    min-height: 100vh;
+  }
+  
+  /* Stilizimi i kartës kryesore */
+  .card {
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+  }
+  
+  /* Stilizimi i butonave të opsioneve */
+  #options button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #options button:hover:not(:disabled) {
+    transform: scale(1.02);
+  }
+  
+  /* Stilizimi për progress bar dhe timer */
+  .progress-container {
+    margin-bottom: 20px;
+  }
+  
+  .timer {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
